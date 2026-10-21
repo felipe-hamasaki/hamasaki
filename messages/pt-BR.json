@@ -94,8 +94,9 @@
           "imageAlt": "Captura da página inicial do site da psicóloga Gabriela Almeida"
         },
         "six": {
-          "title": "Forma — estudo de composição",
-          "solution": "Geometria, tipografia e espaço em branco. Um bloco experimental para explorar o ritmo da galeria."
+          "title": "Pátio — gestão de oficinas",
+          "imageAlt": "Painel do Pátio com indicadores da oficina e quadro de ordens de serviço por etapa",
+          "solution": "Da entrada do veículo à entrega: ordens de serviço, orçamentos e acompanhamento da oficina em uma demo interativa, com dados fictícios salvos no navegador."
         },
         "seven": {
           "title": "Signal — estudo de movimento",

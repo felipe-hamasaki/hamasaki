@@ -7,7 +7,15 @@ import Image from 'next/image'
 
 const projectKeys = ['four', 'five', 'six', 'seven'] as const
 const experienceKeys = ['fullstack', 'frontend', 'junior'] as const
-const projects = {
+const projects: Record<
+  (typeof projectKeys)[number],
+  {
+    image: string | null
+    art: string | null
+    demo: string | null
+    source: string | null
+  }
+> = {
   four: {
     image: '/projects/medivi-shop.webp',
     art: null,
@@ -20,9 +28,14 @@ const projects = {
     demo: 'https://www.psialmeidagabriela.com.br/',
     source: 'https://github.com/felipehborges/psico-gabriela'
   },
-  six: { image: null, art: 'orbit', demo: null, source: null },
+  six: {
+    image: '/projects/patio.png',
+    art: null,
+    demo: 'https://patio-gamma.vercel.app/demo',
+    source: 'https://github.com/felipe-hamasaki/patio'
+  },
   seven: { image: null, art: 'signal', demo: null, source: null }
-} as const
+}
 
 export function CodeColorHome() {
   const home = useTranslations('Home')
@@ -104,9 +117,7 @@ export function CodeColorHome() {
                       >
                         <div className="minimal-art-topline">
                           <span>H / EXPERIMENTS</span>
-                          <span>
-                            {projects[key].art === 'orbit' ? '001' : '002'}
-                          </span>
+                          <span>002</span>
                         </div>
                         <div className="minimal-art-shapes">
                           <i />
@@ -116,7 +127,7 @@ export function CodeColorHome() {
                           <i />
                         </div>
                         <div className="minimal-art-word">
-                          {projects[key].art === 'orbit' ? 'Forma' : 'Signal'}
+                          Signal
                           <span>®</span>
                         </div>
                         <div className="minimal-art-baseline">

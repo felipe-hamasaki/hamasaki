@@ -94,8 +94,9 @@
           "imageAlt": "Screenshot of psychologist Gabriela Almeida's website home page"
         },
         "six": {
-          "title": "Forma — composition study",
-          "solution": "Geometry, typography, and whitespace. An experimental block exploring the rhythm of the gallery."
+          "title": "Pátio — auto repair shop management",
+          "imageAlt": "Pátio dashboard with workshop metrics and a service order board organized by stage",
+          "solution": "From vehicle check-in to handover: service orders, estimates, and workshop tracking in an interactive demo, with fictional data saved in the browser."
         },
         "seven": {
           "title": "Signal — motion study",
