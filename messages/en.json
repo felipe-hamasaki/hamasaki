@@ -99,8 +99,9 @@
           "solution": "From vehicle check-in to handover: service orders, estimates, and workshop tracking in an interactive demo, with fictional data saved in the browser."
         },
         "seven": {
-          "title": "Signal — motion study",
-          "solution": "Color and contrasting shapes. A second visual experiment for testing transitions between projects."
+          "title": "Hamadle — daily guessing games",
+          "imageAlt": "Hamadle homepage featuring the daily Berserk character guessing challenge",
+          "solution": "A new character to discover every day. A guessing game hub featuring Berserkdle, light and dark themes, and an interface in Portuguese, English, and Spanish."
         }
       }
     },

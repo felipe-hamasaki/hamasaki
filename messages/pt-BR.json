@@ -99,8 +99,9 @@
           "solution": "Da entrada do veículo à entrega: ordens de serviço, orçamentos e acompanhamento da oficina em uma demo interativa, com dados fictícios salvos no navegador."
         },
         "seven": {
-          "title": "Signal — estudo de movimento",
-          "solution": "Cor e formas em contraponto. Um segundo experimento visual para testar as transições entre projetos."
+          "title": "Hamadle — jogos diários de adivinhação",
+          "imageAlt": "Página inicial do Hamadle com o desafio diário de personagens de Berserk",
+          "solution": "Um personagem para descobrir a cada dia. Portal de jogos de adivinhação com o Berserkdle, temas claro e escuro e interface em português, inglês e espanhol."
         }
       }
     },
